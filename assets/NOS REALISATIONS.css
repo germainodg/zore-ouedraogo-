@@ -1,0 +1,125 @@
+li {
+    list-style: none !important;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+
+.gggg {
+    background: no-repeat url("../Img/8abb7ae01e_50177793_eoliennes-arguments.jpg") !important;
+    height: 600px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+}
+
+.gggg h2, h3 {
+    text-align: center !important;
+    color: white;
+}
+
+nav sarl {
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    line-height: 44px;
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(241, 239, 239);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.entete{
+    color: #b59c24;
+}
+
+li a:hover {
+    border-bottom: 3px #937405 solid;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li a:hover {
+    color : yellow !important;
+  }
+    
+/* Rend le menu déroulant caché par défaut */
+nav ul li:hover ul {
+    /* Affiche la dropNav au survol de la souris avec la class .drop */
+    display: list-item !important;
+    position: absolute;
+}
+
+nav ul li:hover ul li {
+    float: none;
+}
+       
+nav {
+    height: 100px;
+    width: auto;
+    background-color: #b59c24;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.bloc {
+    display: flex;
+    margin: 30px;
+    justify-content: center !important;
+    
+}
+
+.bloc2{
+    
+    padding-top: 100px;
+}
+
+.bloc3{
+    padding-top: 100px;
+}
+    
+.text{
+    text-align: center;
+    background-color: #b59c24;
+    margin-bottom: 0px;
+}
+
+.footer {
+    background: #f3f4f5;
+    justify-content: center !important;
+    display: flex;
+    padding: 5%;
+}
+
+.contact {
+    margin-right: 10%;
+}
+
+.suivre {
+    margin-left: 10%;
+}
+
+.log {
+    display: flex !important;
+}

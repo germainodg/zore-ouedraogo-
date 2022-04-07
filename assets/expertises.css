@@ -1,0 +1,170 @@
+li {
+    list-style: none !important;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+
+.gggg {
+    background: no-repeat url("../Img/8abb7ae01e_50177793_eoliennes-arguments.jpg") !important;
+    height: 600px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+    
+}
+
+.gggg h2,
+h3 {
+    text-align: center !important;
+    color: white;
+}
+
+nav sarl {
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    line-height: 44px;
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(241, 239, 239);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    border-bottom: 3px #937405 solid;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+/* Rend le menu déroulant caché par défaut */
+nav ul li:hover ul {
+    /* Affiche la dropNav au survol de la souris avec la class .drop */
+    display: list-item !important;
+    position: absolute;
+}
+
+nav ul li:hover ul li {
+    float: none;
+}
+
+nav {
+    height: 100px;
+    width: auto;
+    background-color: #b59c24;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+}
+
+.ul {
+    list-style: none;
+}
+
+.entete{
+    color: #b59c24;
+}
+ 
+.defilant{
+    padding: 10px;
+}
+
+.point{
+    display: flex;
+    padding: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: #b59c24;
+
+}   
+
+.carre {
+    width: 300px;
+    height: 300px;
+    border: solid 6px #b59c24;
+    margin-left: 20px;
+    background-color: #b59c24;
+}
+.carr{
+    width: 400px;
+    height: 300px;
+    border: solid 6px #b59c24;
+    margin-left: 25px;
+    background-color: #b59c24;
+}
+
+.call {
+    width: 500px;
+    height: 300px;
+    border: solid 6px #b59c24;
+    margin-left: 40px;
+    background-color: #b59c24;
+
+}
+
+.linux {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+    background-image: #b59c24;
+}   
+
+.kali {
+    width: 500px;
+    height: 300px;
+    border: solid 6px #b59c24;
+    margin-left: 100px;
+    background-color: #b59c24;
+}
+.rose {
+    width: 500px;
+    height: 300px;
+    border: solid 6px #b59c24;
+    margin-left: 100px;
+    background-color: #b59c24;
+
+}
+
+.texts{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer {
+    background: #f3f4f5;
+    justify-content: center !important;
+    display: flex;
+    padding: 5%;
+}
+
+.contact {
+    margin-right: 10%;
+}
+
+.suivre {
+    margin-left: 10%;
+}
+
+.log {
+    display: flex !important;
+}
+nav ul li a:hover {
+    color : yellow !important;
+  }
